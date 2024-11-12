@@ -58,6 +58,15 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			  <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>gh-pages-maven-plugin</artifactId>
+            <version>0.12.0</version>
+            <configuration>
+                <repositoryName>https://github.com/networkSorcerer/openAPI.git</repositoryName>
+                <branch>gh-pages</branch>
+            </configuration>
+        </plugin>
 		</plugins>
 	</build>
 
