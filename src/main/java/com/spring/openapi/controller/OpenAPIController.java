@@ -23,10 +23,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
  ***************************************************************************************/
 @Controller
-@RequestMapping("/open")
+@RequestMapping("/")
 public class OpenAPIController {
 	
-	@GetMapping("/tourKeywordView")
 	public String tourKeywordView() {
 		return "index";
 	}
